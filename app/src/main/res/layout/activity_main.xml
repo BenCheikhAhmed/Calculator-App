@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le premier nombre"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le deuxieme nombre"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/btnMemorize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Memorize"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnUseMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Memory"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>
